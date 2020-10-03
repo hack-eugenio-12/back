@@ -1,0 +1,3075 @@
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/teste/?$rid=1
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: teste
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/teste/?$rid=1
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: teste
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/teste/?$rid=2
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: teste
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/teste/?$rid=1
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: teste
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/teste/?$rid=2
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: teste
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/teste/?$rid=3
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3
+DEBUG:root:Method: teste
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/teste/?$rid=1
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: teste
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/teste/?$rid=2
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: teste
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/teste/?$rid=1
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: teste
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ping/?$rid=1
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: ping
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received ping: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/teste/?$rid=2
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: teste
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=1
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received ping: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=2
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received ping: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=2
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=3
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received ping: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=3
+DEBUG:root:{}
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ping/?$rid=1
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: ping
+DEBUG:root:Payload: 
+INFO:root:Received ping: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ping/?$rid=2
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: ping
+DEBUG:root:Payload: 
+INFO:root:Received ping: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=2
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/reboot/?$rid=3
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3
+DEBUG:root:Method: reboot
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ping/?$rid=1
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: ping
+DEBUG:root:Payload: 
+INFO:root:Received ping: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/reboot/?$rid=2
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: reboot
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/get_system_log/?$rid=3
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3
+DEBUG:root:Method: get_system_log
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/get_eugenio_edge_log/?$rid=4
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 4
+DEBUG:root:Method: get_eugenio_edge_log
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ping/?$rid=1
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: ping
+DEBUG:root:Payload: 
+INFO:root:Received ping: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/reboot/?$rid=2
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: reboot
+DEBUG:root:Payload: 
+INFO:root:Received reboot: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=2
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/get_system_log/?$rid=3
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3
+DEBUG:root:Method: get_system_log
+DEBUG:root:Payload: 
+INFO:root:Received system log: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=3
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/get_eugenio_edge_log/?$rid=4
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 4
+DEBUG:root:Method: get_eugenio_edge_log
+DEBUG:root:Payload: 
+INFO:root:Received eugenio log: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=4
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=4
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/get_system_log/?$rid=5
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 5
+DEBUG:root:Method: get_system_log
+DEBUG:root:Payload: 
+INFO:root:Received system log: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=5
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=5
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=6
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 6
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received ligar: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=6
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=6
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/testar/?$rid=7
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 7
+DEBUG:root:Method: testar
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received testar: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=7
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=7
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/testar/?$rid=8
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 8
+DEBUG:root:Method: testar
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received testar: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=8
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=8
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/testar/?$rid=9
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 9
+DEBUG:root:Method: testar
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received testar: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=9
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=9
+DEBUG:root:{}
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/testar/?$rid=1
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: testar
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received testar: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+ERROR:root:Failed to run command: name 'status' is not defined
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/testar/?$rid=1
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: testar
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received testar: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {"status": "ok"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{"status": "ok"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/testar/?$rid=2
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: testar
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received testar: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2
+DEBUG:root:Invoke reply message: {"status": "ok"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2
+DEBUG:root:{"status": "ok"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/testar/?$rid=3
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3
+DEBUG:root:Method: testar
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received testar: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3
+DEBUG:root:Invoke reply message: {"status": "ok"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3
+DEBUG:root:{"status": "ok"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=4
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 4
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received ligar: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=4
+DEBUG:root:Invoke reply message: {"status": "ligado"}
+DEBUG:root:$iothub/methods/res/200/?$rid=4
+DEBUG:root:{"status": "ligado"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=5
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 5
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received ligar: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=5
+DEBUG:root:Invoke reply message: {"status": "ligado"}
+DEBUG:root:$iothub/methods/res/200/?$rid=5
+DEBUG:root:{"status": "ligado"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=6
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 6
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received ligar: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=6
+DEBUG:root:Invoke reply message: {"status": "ligado"}
+DEBUG:root:$iothub/methods/res/200/?$rid=6
+DEBUG:root:{"status": "ligado"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=7
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 7
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received ligar: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=7
+DEBUG:root:Invoke reply message: {"status": "ligado"}
+DEBUG:root:$iothub/methods/res/200/?$rid=7
+DEBUG:root:{"status": "ligado"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=8
+DEBUG:root:payload b'{"status":"LIGAR","nivel":50,"comando":"none"}'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 8
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+INFO:root:Received ligar: {'status': 'LIGAR', 'nivel': 50, 'comando': 'none'}
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=8
+DEBUG:root:Invoke reply message: {"status": "ligado"}
+DEBUG:root:$iothub/methods/res/200/?$rid=8
+DEBUG:root:{"status": "ligado"}
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=1
+DEBUG:root:payload b'"ON"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: ON
+INFO:root:Received ligar: ON
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {"status": "ligado"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{"status": "ligado"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=2
+DEBUG:root:payload b'"ON"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: ON
+INFO:root:Received ligar: ON
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2
+DEBUG:root:Invoke reply message: {"status": "ligado"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2
+DEBUG:root:{"status": "ligado"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=3
+DEBUG:root:payload b'"ON"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: ON
+INFO:root:Received ligar: ON
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3
+DEBUG:root:Invoke reply message: {"status": "ligado"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3
+DEBUG:root:{"status": "ligado"}
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=1
+DEBUG:root:payload b'"ON"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: ON
+INFO:root:Received ligar: ON
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {"status": "ligado"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{"status": "ligado"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/testar/?$rid=2
+DEBUG:root:payload b'"ON"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: testar
+DEBUG:root:Payload: ON
+INFO:root:Received testar: ON
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2
+DEBUG:root:Invoke reply message: {"status": "ok"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2
+DEBUG:root:{"status": "ok"}
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/testar/?$rid=1
+DEBUG:root:payload b'"ON"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: testar
+DEBUG:root:Payload: ON
+INFO:root:Received testar: ON
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {"status": "ok"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{"status": "ok"}
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/testar/?$rid=1
+DEBUG:root:payload b'"ON"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: testar
+DEBUG:root:Payload: ON
+INFO:root:Received testar: ON
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {"status": "ok"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{"status": "ok"}
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=1
+DEBUG:root:payload b'"ON"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: ON
+INFO:root:Received ligar: ON
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {"status": "ligado"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{"status": "ligado"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=2
+DEBUG:root:payload b'"ON"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: ON
+INFO:root:Received ligar: ON
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2
+DEBUG:root:Invoke reply message: {"status": "ligado"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2
+DEBUG:root:{"status": "ligado"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=3
+DEBUG:root:payload b'"ON"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: ON
+INFO:root:Received ligar: ON
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3
+DEBUG:root:Invoke reply message: {"status": "ligado"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3
+DEBUG:root:{"status": "ligado"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=4
+DEBUG:root:payload b'"ON"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 4
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: ON
+INFO:root:Received ligar: ON
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=4
+DEBUG:root:Invoke reply message: {"status": "ligado"}
+DEBUG:root:$iothub/methods/res/200/?$rid=4
+DEBUG:root:{"status": "ligado"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=5
+DEBUG:root:payload b'"ON"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 5
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: ON
+INFO:root:Received ligar: ON
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=5
+DEBUG:root:Invoke reply message: {"status": "ligado"}
+DEBUG:root:$iothub/methods/res/200/?$rid=5
+DEBUG:root:{"status": "ligado"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ligar/?$rid=6
+DEBUG:root:payload b'"ON"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 6
+DEBUG:root:Method: ligar
+DEBUG:root:Payload: ON
+INFO:root:Received ligar: ON
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=6
+DEBUG:root:Invoke reply message: {"status": "ligado"}
+DEBUG:root:$iothub/methods/res/200/?$rid=6
+DEBUG:root:{"status": "ligado"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=7
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 7
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=7
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=7
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=8
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 8
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=8
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=8
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=9
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 9
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=9
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=9
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=a
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: a
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=a
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=a
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=b
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: b
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=b
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=b
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=c
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: c
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=c
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=c
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=d
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: d
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=d
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=d
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=e
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: e
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=e
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=e
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=f
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: f
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=f
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=f
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=10
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 10
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=10
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=10
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=11
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 11
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=11
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=11
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=12
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 12
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=12
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=12
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=13
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 13
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=13
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=13
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=14
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 14
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=14
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=14
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=15
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 15
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=15
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=15
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=16
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 16
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=16
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=16
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=17
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 17
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=17
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=17
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=18
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 18
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=18
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=18
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=19
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 19
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=19
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=19
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=1a
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1a
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1a
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1a
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=1b
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1b
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1b
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1b
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=1c
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1c
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1c
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1c
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=1d
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1d
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1d
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1d
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=1e
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1e
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1e
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1e
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=1f
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1f
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1f
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1f
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=20
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 20
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=20
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=20
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=21
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 21
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=21
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=21
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=22
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 22
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=22
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=22
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=23
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 23
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=23
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=23
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=24
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 24
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=24
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=24
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=25
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 25
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=25
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=25
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=26
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 26
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=26
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=26
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=27
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 27
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=27
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=27
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=28
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 28
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=28
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=28
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=29
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 29
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=29
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=29
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=2a
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2a
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2a
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2a
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=2b
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2b
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2b
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2b
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=2c
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2c
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2c
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2c
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=2d
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2d
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2d
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2d
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=2e
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2e
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2e
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2e
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=2f
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2f
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2f
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2f
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=30
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 30
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=30
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=30
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=31
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 31
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=31
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=31
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=32
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 32
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=32
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=32
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=33
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 33
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=33
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=33
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=34
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 34
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=34
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=34
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=35
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 35
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=35
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=35
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=36
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 36
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=36
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=36
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=37
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 37
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=37
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=37
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=38
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 38
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=38
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=38
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=39
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 39
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=39
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=39
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=3a
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3a
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3a
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3a
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=3b
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3b
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3b
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3b
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=3c
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3c
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3c
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3c
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=3d
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3d
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3d
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3d
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=3e
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3e
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3e
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3e
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=3f
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3f
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3f
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3f
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=40
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 40
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=40
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=40
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=41
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 41
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=41
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=41
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=42
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 42
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=42
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=42
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=43
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 43
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=43
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=43
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=44
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 44
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=44
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=44
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=45
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 45
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=45
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=45
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=46
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 46
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=46
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=46
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=47
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 47
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=47
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=47
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=48
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 48
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=48
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=48
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=49
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 49
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=49
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=49
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=4a
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 4a
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=4a
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=4a
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=4b
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 4b
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=4b
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=4b
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=4c
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 4c
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=4c
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=4c
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=4d
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 4d
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=4d
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=4d
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=4e
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 4e
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=4e
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=4e
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=4f
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 4f
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=4f
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=4f
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=50
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 50
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=50
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=50
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=51
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 51
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=51
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=51
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=52
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 52
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=52
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=52
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=53
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 53
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=53
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=53
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=54
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 54
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=54
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=54
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=55
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 55
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=55
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=55
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=56
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 56
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=56
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=56
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=57
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 57
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=57
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=57
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=58
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 58
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=58
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=58
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=59
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 59
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=59
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=59
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=5a
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 5a
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=5a
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=5a
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=5b
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 5b
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=5b
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=5b
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=1
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=2
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=3
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=4
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 4
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=4
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=4
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=1
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=1
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=1
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=2
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=3
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=4
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 4
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=4
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=4
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=5
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 5
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=5
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=5
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=6
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 6
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=6
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=6
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=7
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 7
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=7
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=7
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=8
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 8
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=8
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=8
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=9
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 9
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=9
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=9
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=1
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=2
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=3
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=4
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 4
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=4
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=4
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=5
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 5
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=5
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=5
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=6
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 6
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=6
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=6
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=7
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 7
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=7
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=7
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=8
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 8
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=8
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=8
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=9
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 9
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=9
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=9
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=a
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: a
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=a
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=a
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=b
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: b
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=b
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=b
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=c
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: c
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=c
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=c
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=d
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: d
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=d
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=d
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=e
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: e
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=e
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=e
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=f
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: f
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=f
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=f
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=10
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 10
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=10
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=10
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=11
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 11
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=11
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=11
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=12
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 12
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=12
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=12
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=13
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 13
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=13
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=13
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=14
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 14
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=14
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=14
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=15
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 15
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=15
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=15
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=16
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 16
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=16
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=16
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=17
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 17
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=17
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=17
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=18
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 18
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=18
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=18
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=19
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 19
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=19
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=19
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=1a
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1a
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1a
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1a
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=1b
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1b
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1b
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1b
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=1c
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1c
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1c
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1c
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=1d
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1d
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1d
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1d
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=1e
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1e
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1e
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1e
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=1f
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1f
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1f
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1f
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=20
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 20
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=20
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=20
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=21
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 21
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=21
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=21
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=22
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 22
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=22
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=22
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=23
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 23
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=23
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=23
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=24
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 24
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=24
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=24
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=25
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 25
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=25
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=25
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=26
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 26
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=26
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=26
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=27
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 27
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=27
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=27
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=28
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 28
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=28
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=28
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=29
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 29
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=29
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=29
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=2a
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2a
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2a
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2a
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=2b
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2b
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2b
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2b
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=2c
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2c
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2c
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2c
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=2d
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2d
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2d
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2d
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=2e
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2e
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2e
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2e
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=2f
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2f
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2f
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2f
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=30
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 30
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=30
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=30
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=31
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 31
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=31
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=31
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=32
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 32
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=32
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=32
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=33
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 33
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=33
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=33
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=34
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 34
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=34
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=34
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=35
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 35
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=35
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=35
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=36
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 36
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=36
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=36
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=37
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 37
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=37
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=37
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=38
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 38
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=38
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=38
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=39
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 39
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=39
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=39
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=3a
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3a
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3a
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3a
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=3b
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3b
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3b
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3b
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=3c
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3c
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3c
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3c
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=3d
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3d
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3d
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3d
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=3e
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3e
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3e
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3e
+DEBUG:root:{"status": "chamando"}
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ping/?$rid=1
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: ping
+DEBUG:root:Payload: 
+INFO:root:Received ping: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/reboot/?$rid=2
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: reboot
+DEBUG:root:Payload: 
+INFO:root:Received reboot: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=2
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/get_system_log/?$rid=3
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3
+DEBUG:root:Method: get_system_log
+DEBUG:root:Payload: 
+INFO:root:Received system log: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=3
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/reboot/?$rid=4
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 4
+DEBUG:root:Method: reboot
+DEBUG:root:Payload: 
+INFO:root:Received reboot: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=4
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=4
+DEBUG:root:{}
+DEBUG:root:MQTT Connect... 1
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/ping/?$rid=1
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: ping
+DEBUG:root:Payload: 
+INFO:root:Received ping: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/reboot/?$rid=2
+DEBUG:root:payload b'""'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: reboot
+DEBUG:root:Payload: 
+INFO:root:Received reboot: 
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2
+DEBUG:root:Invoke reply message: {}
+DEBUG:root:$iothub/methods/res/200/?$rid=2
+DEBUG:root:{}
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT Disconnected!!
+INFO:root:MQTT Paho Connected with result code 0
+INFO:root:Subscribing to invoke topic
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=1
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 1
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=1
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=1
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=2
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 2
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=2
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=2
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=3
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 3
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=3
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=3
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=4
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 4
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=4
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=4
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=5
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 5
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=5
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=5
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=6
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 6
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=6
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=6
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=7
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 7
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=7
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=7
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=8
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 8
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=8
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=8
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=9
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: 9
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=9
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=9
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=a
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: a
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=a
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=a
+DEBUG:root:{"status": "comprando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/chamar/?$rid=b
+DEBUG:root:payload b'"Vou chamar a consultora"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: b
+DEBUG:root:Method: chamar
+DEBUG:root:Payload: Vou chamar a consultora
+INFO:root:Received chamar: Vou chamar a consultora
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=b
+DEBUG:root:Invoke reply message: {"status": "chamando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=b
+DEBUG:root:{"status": "chamando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/provar/?$rid=c
+DEBUG:root:payload b'"Vou mostrar nossos produtos"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: c
+DEBUG:root:Method: provar
+DEBUG:root:Payload: Vou mostrar nossos produtos
+INFO:root:Received provar: Vou mostrar nossos produtos
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=c
+DEBUG:root:Invoke reply message: {"status": "provando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=c
+DEBUG:root:{"status": "provando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/localizar/?$rid=d
+DEBUG:root:payload b'"Encontrando seu produto preferido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: d
+DEBUG:root:Method: localizar
+DEBUG:root:Payload: Encontrando seu produto preferido
+INFO:root:Received localizar: Encontrando seu produto preferido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=d
+DEBUG:root:Invoke reply message: {"status": "localizando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=d
+DEBUG:root:{"status": "localizando"}
+INFO:root:MQTT message arrived
+DEBUG:root:topic $iothub/methods/POST/comprar/?$rid=e
+DEBUG:root:payload b'"Vamos fechar seu pedido"'
+DEBUG:root:handle_mqtt_messages
+DEBUG:root:Rid: e
+DEBUG:root:Method: comprar
+DEBUG:root:Payload: Vamos fechar seu pedido
+INFO:root:Received comprar: Vamos fechar seu pedido
+DEBUG:root:Invoke reply
+DEBUG:root:Invoke reply topic: $iothub/methods/res/200/?$rid=e
+DEBUG:root:Invoke reply message: {"status": "comprando"}
+DEBUG:root:$iothub/methods/res/200/?$rid=e
+DEBUG:root:{"status": "comprando"}

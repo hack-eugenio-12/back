@@ -1,0 +1,14 @@
+Device_003
+
+D7:88:D9:D3:2A:D8:5E:68:E0:72:E1:1E:7A:E7:C1:51:8C:DE:C5:31
+
+48317794-1ae0-4510-9584-6478f92dc537
+
+
+{
+  "host": "logicalis-eugeniostg-iothub.azure-devices.net",
+  "port": 8883,
+  "cloudToDevice": "devices/48317794-1ae0-4510-9584-6478f92dc537/messages/devicebound/#",
+  "deviceToCloud": "devices/48317794-1ae0-4510-9584-6478f92dc537/messages/events/"
+}
+
